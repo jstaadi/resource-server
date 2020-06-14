@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: ResourceServer
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-value: -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAptjcUb4YWPicGwVlWVYB
+          LZkzC1E2La1MORtOL4VGJbrdoMzYhsw71cV9DCnJvRKtvxt4aNzxAGejSrL8xQMx
+          LZLN8CO3O58q4OlrKqf4ExSVxvy+9rJJT93taQejG84BzaNc8tQHJeVRVqEtxGfT
+          jAjnOEOP0pQQlGhvqcGnRb5JAJcGofu84ZScKbHOwT8KfwULEqDLmfQM9/deD+Qn
+          JSe4i1GDW/8R1GyM1KVjgjcM96KJYf/I2grk8Y0SyRm2+kCEFNd80t9gUm5kFDH1
+          T9bCWNJkugA65iXC6lP9EGMDapXclLy5Cb5iF4wyKaZJZqPKlS8jBDx8NT63x5rf
+          TQIDAQAB
+          -----END PUBLIC KEY-----
+
+server:
+  port: 8082
